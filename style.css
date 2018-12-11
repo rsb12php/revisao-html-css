@@ -1,0 +1,67 @@
+/* Estilização geral */
+body{
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+/* Define o menu geral */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 18px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+/*itens do menu */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+/*sobreposição do item do menu */
+li a:hover {
+  background-color: #111;
+}
+
+/*Item do menu estará ao lado um do outro*/
+li {
+  float: left;
+}
+
+/*O item do menu estará à direita*/
+li.right {
+	float: right;
+}
+
+/*Topo */
+h1{
+  padding: 20px;
+	text-align: center;
+}
+
+/*Borda verde e espaçamento interno de 20 px e a margem de baixo 20 px*/
+article{
+  border: 1px solid green;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/*Título do artigo cor verde*/
+.title{
+  color:green;
+}
+
+/* Rodapé fixo no final da página */
+footer{
+  position:absolute;
+  width: 100%;
+  text-align: center;
+}
